@@ -100,7 +100,7 @@ mul.onclick = () => {
 }
 
 divide.onclick = () => {
-    if ((number1 / number2) === number3) {
+    if ((Math.floor(number1 / number2)) === number3) {
         score++
         randomise();
         resetTime(timerId)
